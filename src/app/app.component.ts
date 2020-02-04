@@ -11,6 +11,7 @@ export class AppComponent {
   @ViewChild('f', {static: false}) signupForm: NgForm;
   secretQuestion = 'teacher';
   answer = '';
+  genders = ['male', 'female'];
 
   suggestUserName() {
     const suggestedName = 'Superuser';
